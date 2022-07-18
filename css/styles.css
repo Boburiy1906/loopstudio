@@ -150,7 +150,7 @@ body {
 }
 
 .sitenav__link:hover{
-  border-width: 24px;
+  border-color: var(--white);
 }
 
 .header__info {
