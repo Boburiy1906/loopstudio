@@ -118,13 +118,11 @@ body {
 /* HEADER */
 .header {
   padding-top: 70px;
-  padding-bottom: 126px;
+  padding-bottom: 132px;
   background: url(../img/site-bg-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
-.header__container {}
 
 .sitenav {
   display: flex;
@@ -134,12 +132,6 @@ body {
 .header__logo {
   margin-right: auto;
 }
-
-.logo {}
-
-.logo__img {}
-
-.sitenav__list {}
 
 .sitenav__item:not(:last-child) {
   margin-right: 32px;
@@ -182,8 +174,6 @@ body {
   display: flex;
   align-items: flex-end;
 }
-
-.hero__img {}
 
 .hero__info {
   position: absolute;
@@ -274,6 +264,7 @@ body {
   bottom: 100px;
   margin: 0;
   width: 100%;
+  max-width: 150px;
   font-size: 32px;
   line-height: 32px;
   text-transform: uppercase;
